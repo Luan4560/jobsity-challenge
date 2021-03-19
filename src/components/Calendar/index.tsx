@@ -49,12 +49,12 @@ export function Calendar()  {
             </button>
           </div>
 
-          {data && (
+          {/* {data && (
             <div style={{background: `${data.color ? data.color : '#ddd'}`}}>
               <p>{data.getReminder}</p>
               <p>{data.hour}</p>
             </div>
-          )}
+          )} */}
         </Reminder>
       </ContentDay>
     )
